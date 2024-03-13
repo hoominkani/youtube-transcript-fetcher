@@ -1,6 +1,8 @@
 # YouTube Transcript Fetcher
 
-YouTube Transcript Fetcher is a web application that retrieves and displays subtitles from a specified YouTube video URL. The application is structured into a frontend developed with Next.js for the user interface, and a Flask backend that handles the retrieval of subtitles using the `youtube-transcript-api`.
+YouTube Transcript Fetcher is a web application that retrieves and displays subtitles from a specified YouTube video URL. The application is structured into Flask that handles the retrieval of subtitles using the `youtube-transcript-api`.
+
+<img width="503" alt="スクリーンショット 2024-03-13 18 37 27" src="https://github.com/hoominkani/youtube-transcript-fetcher/assets/35726568/ec6cca6c-bf57-4a2c-a836-a09a41247d46">
 
 ## Features
 
@@ -12,7 +14,6 @@ YouTube Transcript Fetcher is a web application that retrieves and displays subt
 
 Before you begin, ensure you have met the following requirements:
 - Docker and Docker Compose are installed on your machine.
-- Node.js and npm/yarn are installed for frontend development.
 - Python 3 and pip are installed for backend development.
 
 ## Installation
