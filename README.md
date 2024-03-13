@@ -14,7 +14,6 @@ YouTube Transcript Fetcher is a web application that retrieves and displays subt
 
 Before you begin, ensure you have met the following requirements:
 - Docker and Docker Compose are installed on your machine.
-- Python 3 and pip are installed for backend development.
 
 ## Installation
 
