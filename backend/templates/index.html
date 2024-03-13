@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch YouTube Subtitles</title>
+</head>
+<body>
+    <h1>Fetch YouTube Subtitles</h1>
+    <form action="/" method="post">
+        YouTube URL: <input type="text" name="video_url" required>
+        <input type="submit" value="Fetch Subtitles">
+    </form>
+    {% if transcript_preview %}
+        <h2>Subtitle Preview</h2>
+        <ul>
+            {% for entry in transcript_preview %}
+                <li>{{ entry.text }}</li>
+            {% endfor %}
+        </ul>
+        {% if download_link %}
+            <a href="/download">Download</a>
+        {% endif %}
+    {% endif %}
+    {% if error %}
+        <p>Error: {{ error }}</p>
+    {% endif %}
+</body>
+</html>
